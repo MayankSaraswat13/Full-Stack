@@ -5,83 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Blog</title>
     <link rel="stylesheet" href="style.css">
-    <title>Nature Photography</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
-
 <body>
-    <div class="nav-container">
-        <div class="logo-container">
-            <div class="img-container">
-                <i class="fa fa-camera" aria-hidden="true" style="font-size: 30px; color: aqua;"></i>
-            </div>
-            <h2>IMAGE</h2>
-        </div>
-
-        <div class="middle-nav">
-            <ul>
-                <li><a href=""> Home </a></li>
-                <li><a href=""> About</a></li>
-                <li><a href=""> Blogs </a></li>
-                <li><a href=""> Plans </a></li>
-                <li><a href=""> Gallery </a></li>
-                <li><a href=""> Contact Us</a></li>
-            </ul>
-        </div>
-
-        <div class="book-trial-btn">
-            <button>Book trial</button>
-        </div>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-camera-retro"></i>IMAGE</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blogs</a>
+            <a href="#">Plans</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <a href="#book-form" class="pagebutton">Book Trial</a>
+    </header>
+    <div id="bloghead">
+        <h3>Photographer's Blog</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, veniam?</p>
     </div>
-
-    <section class="photos-container">
-        <div class="photo">
+    <main id="imagesection">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
             <img src="/Pictures/img1.jpg" alt="">
         </div>
-        <div class="photo">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
             <img src="/Pictures/img2.jpg" alt="">
         </div>
-        <div class="photo">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
             <img src="/Pictures/img3.jpg" alt="">
         </div>
-        <div class="photo">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
             <img src="/Pictures/img4.jpg" alt="">
         </div>
-        <div class="photo">
-            <img src="/Pictures/img5.jpg" alt="">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
+          <img src="/Pictures/img5.jpg" alt="">
         </div>
-        <div class="photo">
-            <img src="/Pictures/img6.jpg" alt="">
+        <div class="mainimage">
+            <i class="fas fa-camera"></i>
+          <img src="/Pictures/img6.jpg" alt="">
         </div>
-        
+    </main>
+
+    <section class="bannerimage">
+        <div class="text">
+            <span>start your Journey !</span>
+            <h3>Let's Capture This World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum praesentium amet quibusdam quam officia suscipit odio.</p>
+            <a href="#" class="pagebutton">book trial</a>
+        </div>
     </section>
 
-    <footer class="footer-container">
-        <div class="photograph">
-           <h1>Photography</h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, est?</p>
-
-           <ul class="d-flex flex-wrap align-items-center">
-  
-            <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
-            <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
-            <li><a href=""><i class="fa fa-instagram fa-2x"></i></a></li>
-            <li><a href="/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+    <div id="footer">
+        <div class="innerfooter">
+            <a href="#" class="logo">Photography</a>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dolores, non?</p>
+            <div class="footericons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
         </div>
-        <div class="contact-info">
-           <h1>Contact Info</h1>
-           <li><i class="fa fa-map-marker"></i><span>New Delhi, India.</span></li>
-           <li><i class="fa fa-phone"></i><span>+91-9868189955</span></li>
+        <div class="innerfooter">
+            <h3>Contact Info</h3>
+            <p>New Delhi, India</p>
+            <p>+9999-999-999</p>
+            <p>abcd@gmail.com</p>
+            <p>7:00am - 10:00pm</p>
         </div>
-
-        <div class="newsletter">
-         <h1>News Letter</h1>
-         <form class="">
-            <input type="email" placeholder="Your email">
-            <input type="submit" value="send">
-          </form>
+        <div class="innerfooter">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your email" class="inputemail" name=""><br>
+                <input type="submit" name="" id="" value="Subscribe" class="pagebutton">
+            </form>
         </div>
-    </footer>
+    </div>
 </body>
 <script src="https://kit.fontawesome.com/41a002b982.js" crossorigin="anonymous"></script>
 
